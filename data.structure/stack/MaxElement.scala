@@ -1,6 +1,9 @@
 import scala.collection.immutable.Stack;
 
-object Solution {
+/*
+	Problem Statement: Find out the maximum element value in a Stack.
+*/
+object MaxElement {
   def main(args: Array[String]): Unit = {
     val n = readInt()
     val stack = Stack.empty
